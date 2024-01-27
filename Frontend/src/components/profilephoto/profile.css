@@ -1,0 +1,29 @@
+.noprofile {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(0, 0, 0, 0.508);
+
+}
+
+.yesprofile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_photo img {
+  width: 30px;
+}

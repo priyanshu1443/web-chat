@@ -1,0 +1,119 @@
+.profilesection {
+  width: 100%;
+  height: calc(100vh - 70px);
+  padding: 10px 20px;
+}
+
+.userimg {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.userimg .img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userimg .setimg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-block: 20px;
+}
+
+
+
+/* .userimg .setimg input {
+  width: 200px;
+} */
+
+.userimg .setimg button {
+  border: 2px solid gray;
+  height: 30px;
+  width: 120px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 400;
+  letter-spacing: 1px;
+  padding: 2px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.userimg .setimg button:hover {
+  color: black;
+  background-color: white;
+}
+
+.name,
+.email {
+  margin-block: 20px;
+  height: 50px;
+}
+
+.name input,
+.email input {
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: rgb(6, 6, 6);
+  border-bottom: 1px solid rgb(153, 150, 150);
+}
+
+.name button,
+.email button {
+  width: 20%;
+  height: 50px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.logout,
+.deletaccount {
+  margin-block: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout button,
+.deletaccount button {
+  width: 200px;
+  height: 40px;
+  background-color: var(--v);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: whitesmoke;
+}
+
+.logout button:hover,
+.deletaccount button:hover {
+  background-color: var(--h);
+}

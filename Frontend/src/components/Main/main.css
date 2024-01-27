@@ -1,0 +1,21 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #14082b; */
+  display: flex;
+}
+
+.section-1 {
+  /* width: 400px; */
+  background-color: rgb(255, 255, 255);
+  border-right: .5px solid #667781;
+}
+
+.section-2 {
+  width: calc(100vw - 400px);
+  background-color: white;
+  /* background-image: url(../../assets/backgroundimage/WeBCHaT.png); */
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
